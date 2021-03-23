@@ -8,3 +8,12 @@ function myFunction(){
     udv.innerHTML = "Üdvözöllek " + nev
 }
 
+function nagyit(){
+    let kep = document.querySelector("img")
+    kep.style.width = "150px"
+}
+
+function normal(){
+    let normal_kep = document.querySelector("img")
+    normal_kep.style.width = "50px"
+}
